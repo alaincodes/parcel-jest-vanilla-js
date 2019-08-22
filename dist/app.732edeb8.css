@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.nav-container {
+  min-height: 9vh;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.nav-container .nav-links {
+  display: flex;
+  list-style-type: none;
+}
+.nav-container .nav-links .nav-link {
+  color: white;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.nav-container .nav-links .nav-link:hover {
+  color: #202020;
+}
+
+/*# sourceMappingURL=/app.732edeb8.css.map */

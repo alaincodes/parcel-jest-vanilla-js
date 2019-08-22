@@ -1,0 +1,19 @@
+{
+  "name": "parcel-jest-vanilla-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10"
+  }
+}
